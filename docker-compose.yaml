@@ -1,0 +1,7 @@
+version: '3'
+services:
+  log:
+    image: automation/log
+    build: .
+    ports:
+      - "514:514"

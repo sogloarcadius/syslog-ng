@@ -1,7 +1,9 @@
+
 version: '3'
+
 services:
-  log:
-    image: automation/log
+  syslog-ng:
+    image: sogloarcadius/syslog-ng
     build: .
     ports:
       - "514:514"
